@@ -1,0 +1,21 @@
+{
+  "identifier": "btrazzini.prettyjson",
+  "name": "Pretty Json",
+  "organization": "Bruno Trazzini",
+  "description": "pretty json",
+  "version": "1.0.0",
+  "license": "MIT",
+  "bugs": "https://github.com/btrazzini/prettyjson/issues",
+  "categories": ["formatters"],
+  "main": "main.js",
+  "commands": {
+    "editor": [
+        {
+          "title": "Pretty",
+          "command": "prettyjson.pretty",
+          "when": "editorHasSelection",
+          "shortcut": "command-shift-j"
+        }
+      ]
+    }
+}
